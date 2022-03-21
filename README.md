@@ -6,5 +6,6 @@ The ViewModel remains in memory until the Lifecycle it's scoped to goes away per
 The ViewModel exists from when you first request a ViewModel until the activity is finished and destroyed.
 
  // ViewModel dependencies
+ 
     def lifecycle_version = "2.5.0-alpha04"
     implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:$lifecycle_version"
