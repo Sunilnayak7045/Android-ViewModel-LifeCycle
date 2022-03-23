@@ -29,6 +29,12 @@ android {
     kotlinOptions {
         jvmTarget = '1.8'
     }
+        kotlinOptions {
+            freeCompilerArgs += [
+                    "-Xjvm-default=all",
+            ]
+        }
+
 }
 
 dependencies {
@@ -45,4 +51,5 @@ dependencies {
     // ViewModel dependencies
     def lifecycle_version = "2.5.0-alpha04"
     implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:$lifecycle_version"
+
 }
