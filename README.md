@@ -9,13 +9,16 @@ In build.gradle file
     
     
 android {
+
 .
 .
 .
+
        kotlinOptions {
             freeCompilerArgs += [
                     "-Xjvm-default=all",
             ]
         }
+        
 
 }
